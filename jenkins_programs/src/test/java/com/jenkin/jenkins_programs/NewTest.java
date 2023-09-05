@@ -9,6 +9,7 @@ public class NewTest {
   public void f() {
 	  WebDriver driver = new ChromeDriver();
 	  driver.get("https://google.com");  
+	  System.out.println("hello");
 	  
   }
 }
